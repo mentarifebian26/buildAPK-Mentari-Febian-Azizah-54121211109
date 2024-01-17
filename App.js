@@ -12,9 +12,9 @@ export default function App() {
     };
     
   return(
-  <ScrollView style={styles.container}>
+    <ScrollView contentContainerStyle={{ alignItems: 'center' }}>
     <Image
-    source={require('./assets/febi.jpg')} 
+    source={require('./assets/bua.jpeg')} 
     style={styles.profile} />
 
     <Text style={styles.title}>Mentari Febian Azizah </Text>
